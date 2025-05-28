@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family:'Roboto';
+    justify-content: center;
+}
+.container {
+    text-align: center;
+}
+.question {
+    font-size: 40px;
+    display: none;
+    
+}
+.answer {
+    font-size: 25px;
+    display: none;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+.answer div {
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.answer div:hover{
+    background-color: azure;
+}
+
+.start button {
+    width: 120px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 80px;
+}
+
+.result{
+    display: none
+}
